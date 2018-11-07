@@ -76,7 +76,7 @@ export default class Trigger extends React.Component<TriggerProps, TriggerState>
     };
   }
 
-  public render() {
+  public render(): JSX.Element {
     const { editCron, hasEndDate, hasStartDate, intervalCategory,
       intervalValue, selectedDays, type } = this.state;
 
